@@ -1,2 +1,2 @@
-# ES_Theme_Workbench
-An Amiga-clone theme for EmulationStation
+# Macbench
+An Apple Macintosh-clone theme for EmulationStation / RetroPie

@@ -1,10 +1,8 @@
-Theme 'workbench' v1.0.0 - 11-01-2016 by Rookervik
+Theme 'macbench' v1.0.0 - 07-15-2024 by Kaceykaso, based on the Workbench theme by Eric Hettervik
 
-Made for Exobuzz
-
-
-Updates:
-- None Yet
+Changes
+=======
+- Background art, Macintosh console and logo art.
 
 
 License

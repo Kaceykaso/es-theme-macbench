@@ -1,6 +1,5 @@
-<theme>
-    <formatVersion>3</formatVersion>
-    <include>./../workbench.xml</include>
+<formatVersion>4</formatVersion>
+<include>../macbench.xml</include>
 
 	<view name="system">
 	
