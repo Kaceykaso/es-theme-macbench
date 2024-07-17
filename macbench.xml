@@ -11,12 +11,20 @@ for:			Everyone, with love
     <formatVersion>4</formatVersion>
 
 	<view name="system">
+        
+        <carousel name="systemcarousel">
+            <type>horizontal</type>
+            <size>1 0.2325</size>
+            <pos>0 0.3</pos>
+            <origin>0 0</origin>
+            <color>FFFFFF00</color>
+        </carousel>
 	
 		<helpsystem name="help">
-			<pos>0.6 0.01</pos>
-			<textColor>0050a0</textColor>
-			<iconColor>0050a0</iconColor>
-			<fontPath>./art/topaz.ttf</fontPath>
+			<pos>0.4 0.01</pos>
+			<textColor>1A1A1A</textColor>
+			<iconColor>1A1A1A</iconColor>
+			<fontPath>./art/Chicago.ttf</fontPath>
 			<fontSize>0.036</fontSize>
 		</helpsystem>
 		
@@ -33,15 +41,16 @@ for:			Everyone, with love
     <view name="basic">
 
 		<helpsystem name="help">
-			<pos>0.319 0.01</pos>
-			<textColor>0050a0</textColor>
-			<iconColor>0050a0</iconColor>
-			<fontPath>./art/topaz.ttf</fontPath>
+			<pos>0.05 0.01</pos>
+            <origin>0 0</origin>
+			<textColor>1A1A1A</textColor>
+			<iconColor>1A1A1A</iconColor>
+			<fontPath>./art/Chicago.ttf</fontPath>
 			<fontSize>0.036</fontSize>
 		</helpsystem>
 
 		<image name="logo">
-			<pos>0.495 0.216</pos>
+			<pos>0.495 0.225</pos>
 			<maxSize>0.354 0.174</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
@@ -59,12 +68,12 @@ for:			Everyone, with love
 			<size>0.906 0.536</size>
 			<alignment>center</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
-			<fontPath>./art/topaz.ttf</fontPath>
+			<fontPath>./art/Chicago.ttf</fontPath>
 			<fontSize>0.04</fontSize>
-			<selectorColor>f0f0f0</selectorColor>
-			<selectedColor>0050a0</selectedColor>
-			<primaryColor>f0f0f0</primaryColor>
-			<secondaryColor>f0f0f0</secondaryColor>
+			<selectorColor>1A1A1A</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>1A1A1A</primaryColor>
+			<secondaryColor>1A1A1A</secondaryColor>
 			<forceUppercase>0</forceUppercase>
 		</textlist>
 
@@ -73,15 +82,16 @@ for:			Everyone, with love
 	<view name="detailed">
 	
 		<helpsystem name="help">
-			<pos>0.319 0.01</pos>
-			<textColor>0050a0</textColor>
-			<iconColor>0050a0</iconColor>
-			<fontPath>./art/topaz.ttf</fontPath>
+			<pos>0.05 0.01</pos>
+            <origin>0 0</origin>
+			<textColor>1A1A1A</textColor>
+			<iconColor>1A1A1A</iconColor>
+			<fontPath>./art/Chicago.ttf</fontPath>
 			<fontSize>0.036</fontSize>
 		</helpsystem>
 
 		<image name="logo">
-			<pos>0.236 0.209</pos>
+			<pos>0.227 0.225</pos>
 			<maxSize>0.343 0.175</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
@@ -95,29 +105,28 @@ for:			Everyone, with love
 		</image>
 
 		<image name="md_image">
-			<pos>0.753 0.323</pos>
-			<maxSize>0.349 0.376</maxSize>
+			<pos>0.76 0.34</pos>
+			<maxSize>0.32 0.37</maxSize>
 			<origin>0.5 0.5</origin>
 		</image>
 		
 		<textlist name="gamelist">
-			<pos>0.027 0.413</pos>
+			<pos>0.027 0.420</pos>
 			<size>0.432 0.545</size>
 			<alignment>left</alignment>
 			<horizontalMargin>0.01</horizontalMargin>
-			<fontPath>./art/topaz.ttf</fontPath>
+			<fontPath>./art/Chicago.ttf</fontPath>
 			<fontSize>0.04</fontSize>
-			<selectorColor>f0f0f0</selectorColor>
-			<selectedColor>0050a0</selectedColor>
-			<primaryColor>f0f0f0</primaryColor>
-			<secondaryColor>f0f0f0</secondaryColor>
+			<selectorColor>1A1A1A</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>1A1A1A</primaryColor>
+			<secondaryColor>1A1A1A</secondaryColor>
 			<forceUppercase>0</forceUppercase>
-			<!--<scrollSound>./art/flipper.wav</scrollSound>-->
 		</textlist>
 		
 <!-- Setting Fonts and sizes and setting position for some elements off-screen   -->
 		<text name="md_description, md_lbl_description, md_playcount, md_lbl_playcount, md_lbl_releasedate, md_lbl_players, md_players, md_lbl_developer, md_developer, md_lbl_publisher, md_publisher, md_lbl_genre, md_genre, md_lbl_lastplayed, md_lbl_rating">
-			<color>f0f0f0</color>
+			<color>1A1A1A</color>
 			<pos>1 1</pos>
 			<fontSize>0.027</fontSize>
 			<forceUppercase>0</forceUppercase>
@@ -126,71 +135,76 @@ for:			Everyone, with love
 
 
 		<text name="md_description">
-			<color>f0f0f0</color>
-			<pos>0.734 0.641</pos>
+			<color>1A1A1A</color>
+			<pos>0.734 0.645</pos>
 			<size>0.220 0.329</size>
 		</text>
 
 		<text name="md_lbl_releasedate">
-			<color>0050a0</color>
-			<pos>0.518 0.654</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.64</pos>
 			<size>0.098 0.032</size>
+            <forceUppercase>1</forceUppercase>
 		</text>
 
 		<datetime name="md_releasedate">
-			<color>f0f0f0</color>
-			<pos>0.514 0.691</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.67</pos>
 			<size>0.098 0.032</size>
 			<fontSize>0.027</fontSize>
 			<forceUppercase>0</forceUppercase>
-			<fontPath>./art/topaz.ttf</fontPath>
+			<fontPath>./art/Chicago.ttf</fontPath>
 		</datetime>
 		
 		<text name="md_lbl_players">
-			<color>0050a0</color>
-			<pos>0.623 0.654</pos>
+			<color>1A1A1A</color>
+			<pos>0.64 0.64</pos>
 			<size>0.098 0.032</size>
+            <forceUppercase>1</forceUppercase>
 		</text>
 
 		<text name="md_players">
-			<color>f0f0f0</color>
-			<pos>0.665 0.691</pos>
+			<color>1A1A1A</color>
+			<pos>0.688 0.67</pos>
 			<size>0.04 0.032</size>
 		</text>
 		
 		<text name="md_lbl_developer">
-			<color>0050a0</color>
-			<pos>0.516 0.730</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.718</pos>
 			<size>0.204 0.034</size>
+            <forceUppercase>1</forceUppercase>
 		</text>
 
 		<text name="md_developer">
-			<color>f0f0f0</color>
-			<pos>0.514 0.770</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.748</pos>
 			<size>0.204 0.034</size>
 		</text>
 		
 		<text name="md_lbl_publisher">
-			<color>0050a0</color>
-			<pos>0.516 0.808</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.797</pos>
 			<size>0.204 0.034</size>
+            <forceUppercase>1</forceUppercase>
 		</text>
 
 		<text name="md_publisher">
-			<color>f0f0f0</color>
-			<pos>0.514 0.848</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.827</pos>
 			<size>0.204 0.034</size>
 		</text>
 		
 		<text name="md_lbl_genre">
-			<color>0050a0</color>
-			<pos>0.516 0.884</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.876</pos>
 			<size>0.204 0.034</size>
+            <forceUppercase>1</forceUppercase>
 		</text>
 
 		<text name="md_genre">
-			<color>f0f0f0</color>
-			<pos>0.514 0.924</pos>
+			<color>1A1A1A</color>
+			<pos>0.514 0.906</pos>
 			<size>0.204 0.034</size>
 		</text>
 		
